@@ -3,11 +3,6 @@
 <sdf version="1.6"> 
   <world name="default"> 
     <!-- override the default position of the camera -->
-    <gui>
-      <camera name='gzclient_camera'>
-        <pose>36.00 -27.95 24.67 0.00 0.53 2.376</pose>
-      </camera>
-    </gui>
     <gravity>0 0 -9.8</gravity>  
     <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>  
     <atmosphere type="adiabatic"/>  
@@ -1469,12 +1464,9 @@
       <pose frame="">30.8212 17.8155 0 0 -0 1.57459</pose> 
     </model>  
     <model name="ground_plane"> 
-      <pose frame="">0 0 -1 0 -0 0</pose>  
-      <scale>1 1 1</scale>  
+      <pose frame="">0 0 -1 0 -0 0</pose>   
       <link name="link"> 
         <pose frame="">0 0 -1 0 -0 0</pose>  
-        <velocity>0 0 0 0 -0 0</velocity>  
-        <acceleration>0 0 0 0 -0 0</acceleration>  
         <!-- <wrench>0 0 0 0 -0 0</wrench>  -->
       </link> 
     </model>  
